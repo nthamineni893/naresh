@@ -1,0 +1,5 @@
+Copy the preceding script content to a file, let’s say /tmp/get_wls_serverstate.py
+
+cd domain/bin
+. ./setDomainEnv.sh
+java weblogic.WLST /tmp/get_wls_serverstate.py
